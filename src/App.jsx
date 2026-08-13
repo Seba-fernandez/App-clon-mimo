@@ -1,5 +1,2 @@
-import JSForge from "./legacy/jsforge";
-
-export default function App() {
-  return <JSForge />;
-}
+import JSForge from "./JSForgeCurso";
+export default function App() { return <JSForge />; }
