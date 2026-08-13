@@ -2,9 +2,9 @@
 
 Ejercicio simplificado inspirado en Mimo, orientado a practicar programación.
 
-## Estado
+## Tecnología
 
-Proyecto inicializado. La implementación y la tecnología todavía no fueron agregadas a este repositorio.
+React 18 con Vite. La aplicación es un entrenador de JavaScript con teoría, ejercicios, tests locales y examen.
 
 ## Flujo de trabajo
 
@@ -23,7 +23,11 @@ src/           Código de la aplicación
 tests/         Pruebas automatizadas
 ```
 
-## Próximo paso
+## Ejecutar localmente
 
-Copiá aquí los archivos generados por Claude y ejecutá `git status` para identificar la tecnología y ajustar la estructura.
+```bash
+npm install
+npm run dev
+```
 
+El componente original de Claude se conserva temporalmente en `src/legacy/JSForge.jsx`. Su progreso ahora se guarda en el navegador mediante `localStorage`.
